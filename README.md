@@ -7,12 +7,12 @@ modules/users
 
 API URL:
 
-branch/index/add - POST
-branch/index/edit- POST
-branch/index/delete - POST
-branch/index/export - GET
-branch/index/import - POST
+branch/index/add - POST\r\n
+branch/index/edit - POST\r\n
+branch/index/delete - POST\r\n
+branch/index/export - GET\r\n
+branch/index/import - POST\r\n
 
-users/index/add - POST
-users/index/edit - POST
-users/index/delete - POST
+users/index/add - POST\r\n
+users/index/edit - POST\r\n
+users/index/delete - POST\r\n
