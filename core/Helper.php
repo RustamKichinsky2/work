@@ -417,7 +417,7 @@ class Helper {
 			
 			$branch[] = $parent;
 		}
-		if(!$branch[0]['branches'])
+		if(isset($branch[0]) && !$branch[0]['branches'])
 		{
 			$obj = new \stdClass();
 			$obj->success = false;
