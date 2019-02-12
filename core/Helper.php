@@ -417,6 +417,13 @@ class Helper {
 			
 			$branch[] = $parent;
 		}
+		if(!$branch[0]['branches'])
+		{
+			$obj = new \stdClass();
+			$obj->success = false;
+			
+			return $obj;
+		}
 		return $branch;
 	}
 	
