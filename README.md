@@ -14,13 +14,13 @@ modules/users
 
 API URL:
 ```
-branch/index/add - POST
-branch/index/edit - POST
-branch/index/delete - POST
+branch/index/add - POST - params {name, parent_id}
+branch/index/edit - POST - params {id, name, parent_id}
+branch/index/delete - POST - params {id}
 branch/index/export - GET
-branch/index/import - POST
+branch/index/import - POST - params {import} json format 
 
-users/index/add - POST
-users/index/edit - POST
-users/index/delete - POST
+users/index/add - POST - params {name, branch_id}
+users/index/edit - POST - params {id, name,branch_id}
+users/index/delete - POST - params {id}
 ```
