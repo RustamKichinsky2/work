@@ -1,4 +1,11 @@
 # work
+
+.htaccess прописываем:
+
+RewriteEngine on
+RewriteRule ^.+$ index.php [L]
+
+
 папки
 modules/branch
 modules/users
